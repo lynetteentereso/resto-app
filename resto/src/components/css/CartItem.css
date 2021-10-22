@@ -1,0 +1,59 @@
+.my-modal-header{
+    color: rgb(18, 182, 223) !important;
+}
+.cart-btn{
+    margin: 5px;
+    color:rgb(18, 182, 223) !important;
+    border-color: white !important;
+    background-color: white !important;
+    font-size: 45px !important;
+}
+table{
+    color: rgb(18, 182, 223) !important;
+    border-collapse: unset !important;
+}
+td, th{
+    font-size: 13px;
+    text-align: center !important;
+}
+td{
+    vertical-align: initial;
+    border: none !important;
+}
+td img{
+    width: 50px;
+}
+span, .remove {
+    cursor: pointer;
+}
+.remove{
+    font-size: 15px;
+}
+.total{
+    overflow: hidden;
+    text-align: end;
+    padding-right: 20px;
+    height: 50px;
+    color:rgb(18, 182, 223);
+}
+
+/* Media Queries Default: Medium Mobile Phones */
+
+@media only screen and (min-width: 768px){
+    td img{
+        width: 80px;
+    }
+    .total{
+        color: rgb(18, 182, 223);
+        padding-right: 30px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    td, th{
+        font-size: 18px;
+    }
+    .cart-btn{
+        margin-right: 80px;
+    }
+}

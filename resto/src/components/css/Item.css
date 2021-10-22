@@ -1,0 +1,62 @@
+.main-item-container{
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+}
+.item-data-container{
+    margin: auto;
+    width: 85%;
+    padding: 20px;
+    border: 3px solid rgb(18, 182, 223);
+    border-radius: 5px;
+}
+.text-container{
+    padding-left: 50px !important;
+}
+.text-container h4{
+    font-size: 23px;
+    margin: 0;
+}
+.price, .category{
+    margin: 0;
+}
+.price{
+    font-size: 18px;
+}
+.category{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.menu-btn{
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+/* Media Queries Default: Medium Mobile Phones */
+
+@media only screen and (max-width: 374px){
+    .text-container{
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .item-data-container{
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .main-item-container{
+        flex-flow: row wrap;
+        width: 100%;
+        margin: 5px;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .item-data-container{
+        width: 100%;
+    }
+  }
