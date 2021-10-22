@@ -1,5 +1,4 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
 import { Col } from 'react-bootstrap';
 import Item from './components/js/Item';
 import ItemSelect from './components/js/ItemSelect';
@@ -8,8 +7,6 @@ import CartItem from './components/js/CartItem';
 import './App.css';
 
 const App = () => {
-
-  const cart = useSelector(state => state.cart)
 
   return (
     <div className='main-container'>
