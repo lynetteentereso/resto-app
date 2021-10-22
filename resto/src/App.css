@@ -45,6 +45,10 @@
   align-items: flex-end;
   padding-right: 10px;
 }
+footer{
+  position: fixed;
+  bottom: 5px;
+}
 
 /* Media Queries Default: Medium Mobile Phones */
 
