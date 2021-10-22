@@ -54,6 +54,7 @@ span, .remove {
         font-size: 18px;
     }
     .cart-btn{
-        margin-right: 80px;
+        margin-right: 90px;
+        font-size: 70px !important;
     }
 }

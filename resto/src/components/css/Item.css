@@ -59,4 +59,8 @@
     .item-data-container{
         width: 100%;
     }
+    .menu-btn{
+        width: 75%;
+        font-size: 18px !important;
+    }
   }
