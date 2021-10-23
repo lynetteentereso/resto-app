@@ -37,7 +37,7 @@ const initialState = {
           },
           {
             id: 6,
-            name: "Hot Tea",
+            name: "Hot Tea 2",
             price: 45,
             category: "Drink",
             image: "https://image.flaticon.com/icons/svg/1046/1046792.svg"
