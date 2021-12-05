@@ -27,7 +27,7 @@ const CartItem = () => {
     return (
         <div className='cart-item'>
 
-            <Button className='cart-btn' onClick={handleShow} variant='info' size='md'>{cart.length == 0 ? <AiOutlineShoppingCart /> : <FaShoppingCart />}</Button> 
+            <Button className='cart-btn' onClick={handleShow} variant='info' size='md'>{cart.length === 0 ? <AiOutlineShoppingCart /> : <FaShoppingCart />}</Button> 
 
             <Modal  show={show} onHide={handleClose} >
                <Modal.Header className='my-modal-header'>
@@ -37,7 +37,7 @@ const CartItem = () => {
                    </button>
                </Modal.Header>
                {
-                   cart.length == 0 ? <p className='my-modal-header' style={{margin: `20px`}}>Your cart is empty</p> :
+                   cart.length === 0 ? <p className='my-modal-header' style={{margin: `20px`}}>Your cart is empty</p> :
                <Modal.Body>
                     <Table className='table'>
                     <thead className='thead'>
