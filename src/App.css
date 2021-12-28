@@ -1,0 +1,83 @@
+.items-wrapper{
+  margin-top: 50px;
+  flex-flow: column wrap;
+}
+.category{
+  text-align: end;
+  margin-right: 25%;
+}
+.select-form{
+margin-left: 50px
+}
+.form-close-btn{
+  width: 45% !important;
+  background: white !important;
+  border-color: #f09c00 !important;
+  color: #592005 !important;
+}
+.form-save-btn{
+  margin: 0 10px;
+  width: 45%;
+  background: #f09c00;
+  border-color: #f09c09;
+}
+.logo{
+  color: #f09c00;
+  font-size: 20px;
+  margin-right: 3px;
+  margin-top: -3px;
+}
+
+/* Media Queries - Mobile First Approach */
+
+@media only screen and (min-width: 768px){
+  .items-wrapper{
+    flex-flow: row wrap !important;
+  }
+  .category{
+    margin-right: 13%;
+  }
+  .select-form{
+    margin-left: 65%;
+  }
+  .item-card{
+    width: 15rem !important;
+    height: 20rem !important;
+  }
+  .item-image{
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .order{
+    width: 13rem !important;
+  }
+  .form-close-btn,
+  .form-save-btn{
+    width: 47% !important;
+  }
+
+}
+
+@media only screen and (min-width: 1024px){
+  .items-wrapper{
+    flex-flow: row wrap !important;
+  }
+  .category{
+    margin-right: 14%;
+  }
+  .select-form{
+    margin-left: 70%;
+  }
+}
+
+@media only screen and (min-width: 1440px){
+  .items-wrapper{
+    flex-flow: row wrap !important;
+  }
+  .category{
+    margin-right: 9%;
+  }
+  .select-form{
+    margin-left: 80%;
+  }
+}
